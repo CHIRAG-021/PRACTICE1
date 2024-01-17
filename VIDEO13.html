@@ -4,11 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="chirag,css.css">
+    <style>
+        div{
+            background-color:rebeccapurple;
+        }
+        .red{
+            background-color: aliceblue;
+        }
+        #vs{
+            background-color: aqua;
+        }
+        div>p{
+            background-color: brown;
+            color: black;
+        }
+        *{
+            padding:0;
+            margin: 0;
+        }
+        a:visited{  
+            color: yellow;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            color: aqua;
+        }
+        p:first-child{
+            color: gold;
+        }
+    </style>
 </head>
 <body>
+    <main class="one">
+        <p>first</p>
+        <p>second</p>
+    </main>
     <div>
         I am chirag singh currently pursuing my graduation(b.tech) from abesec.I  am 18 years old.
+        <p>
+            Lorem ipsum dolor sit amet.
+        </p>
     </div>
+    <div class="red">
+        welcome to github 
+        <p>
+            Lorem ipsum dolor sit amet.
+        </p>
+        <!-- class sould be represented by .red -->
+    </div>
+    <div id="vs">
+        welcome to the vs code
+        <!-- id should be showed by #vs -->
+    </div>
+    <a href="https://www.google.com">Go to Google</a>
+    <a href="https://www.Facebook.com">Go to Facebook</a>
 </body>
 </html>
