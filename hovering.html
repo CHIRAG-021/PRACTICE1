@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hovering</title>
+    <style>
+        body {
+            background-color: orange;
+        }
+
+        * {
+            /* margin: 4% 0% 0% 2%; */
+            /* padding: 8% 0% 0% 2%; */
+        }
+
+        .gallery {
+            display: flex;
+            width: 20%;
+            height: 200px;
+            gap: 5px;
+        }
+
+        .gallery img {
+            width: 20%;
+            object-fit: cover;
+            height: 100%;
+            border-radius: 10px;
+            border: 2px solid white;
+            transition: all ease 1s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            width: 100%;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>
+
+            जय श्री राम
+        </h1>
+    </div>
+    <div class="gallery">
+        <img src="ram1.jpg" alt="">
+        <img src="ram2.jpg" alt="">
+        <img src="ram3.jpg" alt="">
+        <img src="ram4.jpg" alt="">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar</title>
+    <style>
+        .logo img {
+            width: 150px;
+            height: 40px;
+        }
+
+        .logo {
+            width: 40px;
+            height: 24px;
+            /* background-color: blue; */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: ;
+        }
+
+        .right ul {
+            display: flex;
+            gap: 24px;
+        }
+
+        .right ul li {
+            list-style: none;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+
+        }
+
+        .first {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            margin:70px;
+
+        }
+
+        .first span {
+            font-size: 44px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            width: 55vw;
+            text-align: center;
+        }
+        
+        .btn{
+            background-color: aqua;
+            padding: 15px 20px;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-weight: 900;
+        }
+        .first img{
+            cursor: pointer;
+        }
+        .small{
+            font-size: 12px;   
+        }
+        .second{
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            background-color: aquamarine;       
+        }
+        .green{
+            background-color: green;
+        }
+        .item{
+            padding: 23px;
+            /* border: 2px solid grey; */
+            background-color: rgb(238, 236, 236);
+            border-radius: 3px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="pic.png" alt="image">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><span>Products</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="24"
+                            viewBox="0 0 24 24" fill="none" class="injected-svg"
+                            data-src="/icons/arrow-down-01-stroke-rounded.svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="#000000"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></li>
+                    <li><span>Pricing</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="24"
+                            viewBox="0 0 24 24" fill="none" class="injected-svg"
+                            data-src="/icons/arrow-down-01-stroke-rounded.svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="#000000"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></li>
+                    <li><span>Resources</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="24"
+                            viewBox="0 0 24 24" fill="none" class="injected-svg"
+                            data-src="/icons/arrow-down-01-stroke-rounded.svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="#000000"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></li>
+                    <li><span>About Us</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="24"
+                            viewBox="0 0 24 24" fill="none" class="injected-svg"
+                            data-src="/icons/arrow-down-01-stroke-rounded.svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                            <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="#000000"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg></li>
+                    <li><img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt=""></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <span>Download <strong>UltraEdit</strong> for Windows Reviews<img width="100"
+                src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt=""></span>
+
+           <p>Download and try UltraEdit before you buy it! This download includes the full Windows version of the
+        </div>
+            <div> <button class="btn">DOWNLOAD MAC OR LINUX VERSION</button></div>
+        </section>
+
+        <section class="second">
+            <div class="flex">
+                <span><img width="25" src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon_white.png" alt="">Download UltraEdit</span>
+                <span class="small">v2023.2(released 12/15/2023) | Hotfix</span>
+            </div>
+
+            <div class="grid">
+                <div class="item">
+                    <div class="lang">English</div>
+                        <button class="btn blue">Download 32-bit</button>
+                        <button class="btn green">Download 64-bit</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css media</title>
+    <style>
+        body{
+            background-color: red;
+            
+        }
+        @media screen and (orientation:portrait) {
+            body{
+                border: 2px solid purple;
+            }
+            /* orientation makes the view in portrait or landscape
+            if h>b portrait
+            if b>h landscape */
+            
+        }
+        @media only screen and (max-width:488px){
+            .boxes{
+                flex-direction:column;
+            }
+            body{
+            background-color:aqua
+            }
+        }
+        .boxes{
+            display: flex;
+            
+        }
+        .box{
+            width:344px;
+            height: 344px;
+            /* border: 2px solid aqua; */
+            background-color: mediumslateblue;
+            padding: 3px;
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        i am red good boy
+    </div>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </div>
+</body>
+</html>
